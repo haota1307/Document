@@ -10,13 +10,13 @@ Ví dụ:
 
 Đối với SPA thì server sẽ cấu hình là khi bạn nhập url nào thì server cũng trả về url nhắm đến file `index.html`, ví dụ `/`.
 
-Khi enter url `https://duthanhduoc.com/about` vào trình duyệt, server nhận được url là `https://duthanhduoc.com/about` và sẽ trả về nội dụng là file `index.html`. Lúc này React Router sẽ đảm nhiệm việc hiển thị component cho đúng tùy vào url.
+Khi enter url `https://trananhhao.com/about` vào trình duyệt, server nhận được url là `https://trananhhao.com/about` và sẽ trả về nội dụng là file `index.html`. Lúc này React Router sẽ đảm nhiệm việc hiển thị component cho đúng tùy vào url.
 
 ### HashRouter
 
-HashRouter dùng dấu `#` trong URL ví dụ: `https://duthanhduoc.com/#/about`, `https://duthanhduoc.com/#/blog/hoc-react-nhu-the-nao`.
+HashRouter dùng dấu `#` trong URL ví dụ: `https://trananhhao.com/#/about`, `https://trananhhao.com/#/blog/hoc-react-nhu-the-nao`.
 
-Lợi ích của việc thêm dấu `#` vào url là để server không nhận biết được chúng ta vào url nào. Khi anh em nhập các url ở ví dụ trên vào trình duyệt và nhấn enter thì trình duyệt chỉ gửi lên server là `https://duthanhduoc.com` và server chỉ nhận được là `https://duthanhduoc.com`.
+Lợi ích của việc thêm dấu `#` vào url là để server không nhận biết được chúng ta vào url nào. Khi anh em nhập các url ở ví dụ trên vào trình duyệt và nhấn enter thì trình duyệt chỉ gửi lên server là `https://trananhhao.com` và server chỉ nhận được là `https://trananhhao.com`.
 
 Điều này khá hữu ích khi server anh em là một share hosting và không toàn quyền điều hành server.
 
